@@ -1,0 +1,180 @@
+* {margin: 0;
+  padding: 0
+}
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #807b7a;
+  background: #fff;
+}
+header {
+  width: 100%;
+  background: #4a4854;
+  float: left;
+  padding: 1.5% 0;
+  border-bottom: 5px solid #83858a;
+  position: relative;
+  z-index: 2
+}
+header .allheader {
+  width: 80%;
+  margin: 0 10%;
+}
+.all {
+  color: #dad9de;
+  float: left;
+  margin-right: 1.5%;
+  width: 7.5%;
+  padding: 1.5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 46%;
+  cursor: pointer;
+}
+header .allheader .main {
+  float: left;
+  margin-left: 15%;}
+.all:hover {
+  -webkit-box-shadow: -5px 11px 50px 8px rgba(206,211,219,0.92);
+  -moz-box-shadow: -5px 11px 50px 8px rgba(206,211,219,0.92);
+  box-shadow: -5px 11px 50px 8px rgba(206,211,219,0.92);
+  border-radius: 6px;
+  text-shadow: -3px -1px 13px rgba(84, 109, 217, 1);
+}
+header .design {
+  color: #c4463b;
+  float: left;
+  width: 10%;
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 2px 3px 7px #a16d6a;
+  padding: 1.5% 0;
+  text-align: center;
+  font-weight: 800;
+  text-align: center;
+  line-height: 46%;
+}
+#search {
+  float: right;
+  border-radius: 3px;
+  border: 0;
+  background-color: #ECECEC;
+  width: 250px;
+  height: 25px;
+  font-weight: 400;
+  font-size: 12px;
+  text-indent: 10px;
+  margin-top: 10px
+}
+
+.hidden-menu {
+  width: 100%;
+  background: #fff;
+  float: left;
+  padding: 1.5% 0;
+  position: fixed;
+  top: -4px;
+  z-index: 1
+}
+.menu {
+  float: left;
+  margin-left: 15%;
+  width: 7.5%;
+  padding: 1.5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 46%;
+  cursor: pointer;
+  border: 2px solid #aba4a4;
+  border-radius: 6px;
+}
+.men1 {
+  float: left;
+  margin-left: 20%;
+}
+.menu:hover {
+  background-color: #4a4854;
+  text-shadow: -3px -1px 13px rgba(84, 109, 217, 1);
+}
+main {
+  width: 80%;
+  margin: 0 10%;
+  float: left;
+}
+main h1 {
+  color: #c4463b;
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 2px 3px 7px #c4acab;
+}
+main .Text {
+  background-color: #e3dcdc;
+  border: 2px solid #aba4a4;
+  float: left;
+  margin: 4% ;
+  margin-left: 0;
+  padding: 2%;
+}
+main p {
+  clear: both;
+  text-align: left;
+}
+main .t1 {width: 59%; height: 350px; margin-right: 3%}
+main .t2 {width: 25%; margin-right: 0; margin-left: 0}
+main img {
+  width: 50%;
+  display: block;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main img:hover {
+  cursor: none;
+  border: 5px outset #e3b86d;
+  -webkit-box-shadow: -5px 11px 50px -14px rgba(214,77,43,1);
+  -moz-box-shadow: -5px 11px 50px -14px rgba(214,77,43,1);
+  box-shadow: -5px 11px 50px -14px rgba(214,77,43,1);
+}
+/* Футер сайта */
+footer {
+    width: 100%;
+    background: #4a4854;
+    float: left;
+    padding: 1.5% 0;
+    border-top: 5px solid #83858a;
+    color: #dad9de;
+}
+footer .foot1 {
+  width: 97%;
+  margin: 1%;
+  margin-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+footer .foot {
+  color: #dad9de;
+  float: left;
+  margin-right: 1.5%;
+  width: 7.5%;
+  padding: 1.5%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 46%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+footer .foot2 {margin-left: 27%; background-color: #e34634}
+footer .foot3 {background-color: #82b2bf}
+footer .foot4 {background-color: #a580bd}
+footer .foot5 {background-color: #ccac78}
+footer .foot6 {
+  width: 95%;
+  float: left;
+  margin-left: 2%;
+  text-align: left;
+  font-weight: 100;
+  font-size: 15px;}
